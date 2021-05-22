@@ -6,3 +6,4 @@
 ###use of setInterval and clearing out that interval 
 
 ### Here is the URL 
+https://slider-app-reactjs.netlify.app/
