@@ -43,7 +43,8 @@ function App() {
             // now if the personIndex matches the state value we will add the active slide
             position = "activeSlide";
           }
-          if (  // we will add the lastSlide to the item with index just before the currIndex but here is a bug if the index is 0 then there is no index=-1 so we add the class next slide to last item in the array
+          if (
+            // we will add the lastSlide to the item with index just before the currIndex but here is a bug if the index is 0 then there is no index=-1 so we add the class next slide to last item in the array
             personIndex === index - 1 ||
             (index === 0 && personIndex === people.length - 1)
           ) {
